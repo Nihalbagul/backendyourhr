@@ -14,7 +14,7 @@ app.use('/uploads', express.static('uploads'));
 app.use('/api/users', userRoutes);
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/yourhr', {
+mongoose.connect('mongodb+srv://nihalbagul98:o6HyPwgaM5QhXB4M@lms.y38rp.mongodb.net/Lms', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
